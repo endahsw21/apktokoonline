@@ -40,7 +40,6 @@
                                 <div class="card p-2">
                                     <div class="card-header text-white bg-danger">Report User</div>
 
-
                                     <div class="card-body">
                                         <span>Lihat Report User di sini</span>
                                     </div>
