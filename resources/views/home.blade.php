@@ -36,6 +36,17 @@
                     @if($role_id == 1)
                     <!--JIKA ROLE USER PENJUAL-->
                      <div class="row mt-2">
+                        <div class="col-4">
+                                    <div class="card p-2">
+                                        <div class="card-header text-white bg-danger">Report User</div>
+
+
+                                        <div class="card-body">
+                                            <span>Lihat Report User di sini</span>
+                                        </div>
+                                        <a href="{{ url('report_user') }}" class="btn btn-sm text-white btn-success">Report User</a>
+                                    </div>
+                                </div>
                             <div class="col-6">
                                 <div class="card p-2">
                                     <div class="card-header text-white bg-primary">Input Produk</div>

@@ -35,7 +35,7 @@ Route::post('/simpan_edit_produk/{id}', [InputProdukController::class, 'simpan_e
 Route::get('/hapus_produk/{id}', [InputProdukController::class, 'hapus_produk'])->name('hapus_produk');
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
 Auth::routes();
+Route::get('/report_user', [ReportUserController::class, 'report_user'])->name('report_user');
+
 
