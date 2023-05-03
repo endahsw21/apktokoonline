@@ -4,7 +4,7 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-12">
             <div class="card">
                 <div class="card-header">{{ __('Dashboard') }}</div>
 
@@ -37,17 +37,17 @@
                     <!--JIKA ROLE USER PENJUAL-->
                      <div class="row mt-2">
                         <div class="col-4">
-                                    <div class="card p-2">
-                                        <div class="card-header text-white bg-danger">Report User</div>
+                                <div class="card p-2">
+                                    <div class="card-header text-white bg-danger">Report User</div>
 
 
-                                        <div class="card-body">
-                                            <span>Lihat Report User di sini</span>
-                                        </div>
-                                        <a href="{{ url('report_user') }}" class="btn btn-sm text-white btn-success">Report User</a>
+                                    <div class="card-body">
+                                        <span>Lihat Report User di sini</span>
                                     </div>
+                                    <a href="{{ url('report_user') }}" class="btn btn-sm text-white btn-success">Report User</a>
                                 </div>
-                            <div class="col-6">
+                            </div>
+                            <div class="col-4">
                                 <div class="card p-2">
                                     <div class="card-header text-white bg-primary">Input Produk</div>
 
@@ -59,7 +59,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-6">
+                            <div class="col-4">
                                 <div class="card p-2">
                                     <div class="card-header text-white bg-success">Report Input Produk</div>
 
